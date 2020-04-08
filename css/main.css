@@ -742,12 +742,17 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(../img/cam2.jpg);
+    /* background: url(../img/cam2.jpg); */
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
     touch-action: none
 }
+
+.critical-cam.lazyloaded {
+    background: url(../img/cam2.jpg);
+}
+
 
 .card-data_graph {
     border-radius: 20px;
@@ -1199,6 +1204,8 @@ html {
     .critical-cam {
         height: 177px
     }
+
+    
 
     .footer-menu {
         padding-left: 20px
