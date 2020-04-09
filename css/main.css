@@ -15,11 +15,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: OpenSansReg;
     src: url("../assets/OpenSans-Regular.ttf");
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
     font-family: OpenSansLight;
     src: url("../assets/OpenSans-Light.ttf");
+    font-display: swap;
 }
 
 body {
